@@ -1,4 +1,4 @@
 provider "google" {
     credentials = file("credentials.json")
-    project = "circle-ci-groupby"
+    project = "circle-ci-lab-01"
 }

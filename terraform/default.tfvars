@@ -1,1 +1,1 @@
-project = "circle-ci-groupby"
+project = "circle-ci-lab-01"
