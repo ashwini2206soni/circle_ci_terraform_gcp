@@ -1,7 +1,10 @@
 terraform {
-  backend "gcs" {
-    bucket = "tfstate_backend_bucket"
-    prefix = "circle_ci"
-    # credentials = "credentials.json"
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "example-org-327005"
+
+    workspaces {
+      name = "circle_ci_terraform_gcp"
+    }
   }
 }
