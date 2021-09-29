@@ -3,7 +3,7 @@ resource "google_storage_bucket" "dummy_bucket" {
   location      = "US"
   force_destroy = true
 }
-resource "google_storage_bucket" "dummy_bucket" {
+resource "google_storage_bucket" "halal_bucket" {
   name          = "halalkaro"
   location      = "US"
   force_destroy = true
